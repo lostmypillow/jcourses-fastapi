@@ -29,4 +29,4 @@ COPY . /code
 # 
 
 
-CMD ["fastapi", "run", "app/main.py", "--port", "8004"]
+CMD ["fastapi", "run", "main.py", "--port", "8004"]
