@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  jcoursesfastapi:
+    image: jcoursesfastapi
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 8004:8004
